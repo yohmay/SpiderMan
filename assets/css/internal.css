@@ -1,0 +1,27 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/navigator.css');
+
+.spider-wrapper{
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+    
+}
+
+.spider-wrapper .spider-left-column{
+    width: 100px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spider-wrapper .spider-main-content {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    padding-left: 30px;
+}
+
